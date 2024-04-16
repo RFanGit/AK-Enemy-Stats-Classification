@@ -23,6 +23,9 @@ These procedures leave 438 enemies, which correspond to 171 unique atk/mvspd pai
 
 Our resulting clusters are summarized in the following image:
 
+![alt text](https://raw.githubusercontent.com/RaymondFanGit/AK-Enemy-Stats-Classification/Update/Hierarchial%20Clustering/cluster_summary/Cluster%20Summary%20Fin.png)
+
+
 # Enemy Numbering
 
 From the json file, we observe that enemies can be broadly classified based on number:
