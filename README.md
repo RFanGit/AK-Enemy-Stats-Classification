@@ -15,13 +15,21 @@ Hierarchial Clustering contains
 From the json file, we observe that enemies can be broadly classified based on number:
 
 1000-1500 - Normal enemies in the main game (Except Big Bob)
+
 1500-2000 - Boss Enemies (except Big Bob, who was likely an early creation)
+
 2000-3000 - IS enemies
+
 3000-4000 - Civilians (Talulah)
+
 4000-5000 - Coop Enemies
+
 5000-6000 - April Fools Event Enemies
+
 6000-7000 - SSS Enemies
+
 7000-8000 - RA Enemies
+
 8000-9000 - DDOS Enemies
 
 This analysis will focus on 1000-1500. This is because:
