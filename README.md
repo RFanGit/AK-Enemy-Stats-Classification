@@ -25,13 +25,17 @@ Our resulting clusters are summarized in the following image:
 
 ![alt text](https://raw.githubusercontent.com/RaymondFanGit/AK-Enemy-Stats-Classification/Update/Hierarchial%20Clustering/cluster_summary/Cluster%20Summary%20Fin.png)
 
-Unfortunately, these clusters do not appear to classify the types of enemies very well. We observe that clusters contain enemies from visually distinct categories (dogs, humanoids, monsters) that we were hoping to distinguish via movespeed and attack intervals. There are also a very large number of clusters with no particular relationship between them. 
+Unfortunately, these clusters do not appear to classify the types of enemies very well. We observe that clusters contain enemies from visually distinct categories (dogs, humanoids, monsters) that we were hoping to distinguish via movespeed and attack intervals. There are also a very large number of clusters with no particular relationship between them.
+
+This analysis was done under the condition we stop clustering after the distance between clusters is too large. Relaxing this condition will produce less clusters, but with more obviously distinct elements, ruining the point of clustering.
 
 This failure can be understood more intuitively if we plot the movespeed and attack interval groups, since this data is 2D. This yields the following plot for the raw data:
 
 ![alt text](https://raw.githubusercontent.com/RaymondFanGit/AK-Enemy-Stats-Classification/Update/Hierarchial%20Clustering/Arknights%20Enemy%20Stats%20Scatterplot.png)
 
 We can observe that there are no apparent clusters in the data (the points are scattered roughly evenly, and the few large points corresponding to popular values are not that large compared to their neighbours), which explains why our clustering analysis did not perform well.
+
+In summary, it is not effective to cluster enemies from this game using movement speed and attack intervals.
 
 # Enemy Numbering
 
